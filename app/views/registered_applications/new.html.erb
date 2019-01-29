@@ -1,0 +1,14 @@
+<h1>Registered Applications Submission Form</h1>
+<h6>Register your new applications here!</h6>
+
+<%= form_for @registered_application do |f| %>
+    <div class="form-group">
+      <%= f.label :name %>
+      <%= f.text_field :name, class: 'form-control', placeholder: "Enter App Name" %>
+    </div>
+    <div class="form-group">
+      <%= f.label :url %>
+      <%= f.text_field :url, class: 'form-control', placeholder: "Enter the URL of the app here" %>
+    </div>
+      <%= f.submit "Save", class: 'btn btn-success' %>
+    <% end %>

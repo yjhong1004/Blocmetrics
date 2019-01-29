@@ -1,0 +1,7 @@
+<h1>Registered Applications</h1>
+
+  <% @registered_applications.each do |registered_application| %>
+      <%= link_to registered_application.name, registered_application %>
+  <% end %>
+  <h4>Register a New Application</h4>
+  <button type="button"><%= link_to 'New Application Registration', new_registered_application_path(@registered_application) %></button>
