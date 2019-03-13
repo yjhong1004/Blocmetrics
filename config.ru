@@ -4,4 +4,4 @@ require_relative 'config/environment'
 
 run Rails.application
 
-set :database, "postgres://localhost/postgres"
+#set :database, "postgres://localhost/postgres"
