@@ -16,3 +16,19 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+
+
+ .jumbotron {
+   background-image: url(https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg);
+   height: 550px;
+   color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 0 !important;
+   font-weight: bold;
+   text-align: center;
+   p {
+   color: black;
+   }
+ }
